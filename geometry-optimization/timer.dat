@@ -1,0 +1,50 @@
+
+Host: warthog
+
+Timers On : Thu Nov 16 17:56:52 2017
+Timers Off: Thu Nov 16 17:56:52 2017
+
+Wall Time:        0.00 seconds
+
+
+***********************************************************
+
+Host: warthog
+
+Timers On : Thu Nov 16 17:57:37 2017
+Timers Off: Thu Nov 16 18:09:10 2017
+
+Wall Time:      693.00 seconds
+
+JK: (A|Q)^-1:      24.75u       1.25s      24.61w      1 call
+JK: (A|mn)  :      51.33u       0.17s      51.53w      6 calls
+JK: (Q|mn)  :     101.82u       0.06s     101.89w      6 calls
+JK: (Q|mn) Write:       0.03u       1.06s   1.084717w      3 calls
+HF: Form H  :       0.00u       0.00s 0.05218700w      1 call
+HF: Form S/X:       0.21u       0.01s 0.20769300w      1 call
+HF: Guess   :       0.23u       0.00s 0.24608400w      1 call
+SAD Guess   :       0.22u       0.00s 0.24083700w      1 call
+JK: (A|Q)^-1/2:       0.06u       0.00s   0.052571w      3 calls
+JK: D       :       0.08u       0.00s   0.057823w     27 calls
+JK: USO2AO  :       0.01u       0.00s   0.007579w     27 calls
+JK: JK      :     484.57u      12.21s     496.88w     27 calls
+JK: J       :       5.86u       0.00s   5.885307w     64 calls
+JK: J1      :       2.73u       0.00s   2.790740w     79 calls
+JK: J2      :       3.03u       0.00s   3.015310w     79 calls
+JK: K       :     476.32u       0.14s     476.50w     64 calls
+JK: K1      :     335.08u       0.10s     335.22w     77 calls
+JK: K2      :     141.22u       0.04s     141.26w     77 calls
+JK: AO2USO  :       0.00u       0.00s   0.000016w     27 calls
+DIISManager::add_entry:       0.01u       0.03s   0.039960w     26 calls
+DIISManager::extrapolate:       0.04u       0.09s   0.118609w     25 calls
+DIISManager::extrapolate: bMatrix setup:       0.00u       0.06s   0.058680w     25 calls
+DIISManager::extrapolate: bMatrix pseudoinverse:       0.00u       0.00s   0.000898w     25 calls
+DIISManager::extrapolate: form new data:       0.04u       0.03s   0.058886w     25 calls
+HF: Form G  :     484.67u      12.22s     496.98w     12 calls
+JK: (Q|mn) Read:       0.03u       7.21s   7.255654w     49 calls
+HF: Form F  :       0.00u       0.01s   0.009759w     12 calls
+HF: DIIS    :       1.01u       0.12s   1.122092w     12 calls
+HF: Form C  :       2.53u       0.00s   2.526012w     12 calls
+HF: Form D  :       0.03u       0.00s   0.048307w     12 calls
+
+***********************************************************
