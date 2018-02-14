@@ -6,13 +6,10 @@
 
 `torsion-scan/`
 
-    - `scan.in` - Example `psi4` input file to scan the dihedral in increments of 10 degrees (self-contained) with output in `scan.out` after a convergence issue. I investigated this issue only lightly, but I did [raise the point](https://github.com/psi4/psi4/issues/862) with the developers of `psi4` back in November.
-
-    - `generated-from-chaya-torsion-fit/`
-
-        - `torsion-drive.ipynb` - Notebook containing a few helper functions to setup and start `psi4` calculations for fixed scan coordinates (instead of using the built-in `psi4` driver method, like in `scan.in` mentioned above).
-
-        - `B3LYP-torsion-scan/` - Coordinates (`pdb`) and `psi4` input files (`dat`) split into subdirectories by the value of the dihedral.
+    * `scan.in` - Example `psi4` input file to scan the dihedral in increments of 10 degrees (self-contained) with output in `scan.out` after a convergence issue. I investigated this issue only lightly, but I did [raise the point](https://github.com/psi4/psi4/issues/862) with the developers of `psi4` back in November.
+    * `generated-from-chaya-torsion-fit/`
+        * `torsion-drive.ipynb` - Notebook containing a few helper functions to setup and start `psi4` calculations for fixed scan coordinates (instead of using the built-in `psi4` driver method, like in `scan.in` mentioned above).
+        * `B3LYP-torsion-scan/` - Coordinates (`pdb`) and `psi4` input files (`dat`) split into subdirectories by the value of the dihedral.
 
 `geometry-optimization/`
 
