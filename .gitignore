@@ -103,3 +103,6 @@ ENV/
 
 # PowerPoint temporary
 ~$*.ppt*
+
+# Checkpoint
+*.chk
