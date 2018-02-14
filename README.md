@@ -5,13 +5,19 @@
 `torsionfit/` - Cloned from https://github.com/choderalab/torsionfit to investigate using `psi4`.
 
 `torsion-scan/`
+
     - `scan.in` - Example `psi4` input file to scan the dihedral in increments of 10 degrees (self-contained) with output in `scan.out` after a convergence issue. I investigated this issue only lightly, but I did [raise the point](https://github.com/psi4/psi4/issues/862) with the developers of `psi4` back in November.
+
     - `generated-from-chaya-torsion-fit/`
+
         - `torsion-drive.ipynb` - Notebook containing a few helper functions to setup and start `psi4` calculations for fixed scan coordinates (instead of using the built-in `psi4` driver method, like in `scan.in` mentioned above).
+
         - `B3LYP-torsion-scan/` - Coordinates (`pdb`) and `psi4` input files (`dat`) split into subdirectories by the value of the dihedral.
 
 `geometry-optimization/`
+
     - `optimize-with-frozen-dihedral.in` - A test to see if optimizing the initial structure works correctly (in this case: doesn't crash). The title string says "HF/cc-pVDZ" but the commited code is at just "B3LYP/3-21G".
+
     - `optimize.png` - The results of the optimization.
 
 `gaussian-torsion-scan-HF-631G/` 
