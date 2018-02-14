@@ -1,0 +1,7 @@
+# Manifest
+
+`CSD/` - Contains structural coordinates for a second generation Feringa motor (150441) [@doi:10.1126/science.aam8808] from the Cambridge Structural Database. I can't recall the mapping between the deposited coordinates and the sets listed in the SI. I believe that the set listed in the SI do *not* correspond to the motor in Figure 2 of the paper, however. For example, the first descriptor for all the motors in the main text begin with `S` and their quantum scan coordinates all begin with `R`. These isomers should not interconvert. The coordinates in the CSD visually conform to the upper left panel of Figure 2.
+
+`torsionfit/` - Cloned from https://github.com/choderalab/torsionfit to investigate using `psi4`.
+
+`torsion-scan/` - Structures (in `B3LYP-torsion-scan`) and a `jupyter notebook` to generate structures.

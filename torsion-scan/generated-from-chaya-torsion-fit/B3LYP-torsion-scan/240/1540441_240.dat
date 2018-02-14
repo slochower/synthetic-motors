@@ -70,4 +70,4 @@ molecule  {
 dih_string = "17 4 2 5 240"
 set optking fixed_dihedral = $dih_string
 
-optimize('B3LYP/cc-PVDZ')
+optimize('B3LYP/3-21G')
